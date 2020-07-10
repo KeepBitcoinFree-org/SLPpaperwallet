@@ -1,10 +1,14 @@
-DO NOT RUN GENERATOR ONLINE
+!! DO NOT RUN SOUR PAPER WALLET GENERATOR ONLINE !!
+
+TO USE: Download zip file, close all browser sessions, disable your wifi or ethernet connection. Unzip the files and open the index.html in a browser. Follow the instructions to generate a new SOUR SLP Paper Wallet and select a theme for your paper wallet. Select any options you'd like, such as number of addresses (or paper walelts) to generate or amount of SOUR shown on the wallet, then click "Print". Ensure you are directly connect to your printer and not using WiFi. After that, fold the wallet - private key section in first, then fold in half. Be sure to safely store your wallet, anyone who gets the private key can access those SOUR.
 
 UPDATE: use file slpofflineslpwif to generate private keys begining with "slp:<wif>". This ismeant to prevent non SLP enabled wallets from sweeping and burning tokens.
   
-SLP Paper Wallet
+The SOUR Paper Wallet Landing Page
+https://wallet.sourtoken.cash
 
-The SLP Paper Wallet Landing Page
+
+The original SLP Paper Wallet Landing Page
 https://wallet.bitchslap.tech
 
 Video demonstration
