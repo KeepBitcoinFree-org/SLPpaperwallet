@@ -6915,7 +6915,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 
 	<header id="paperHeader">
 		<h1>
-			<img src="img/SOUR.png" style="margin-top:1em;" />
+			<img src="img/SOUR.png" style="margin-top:.25em;" />
 		<!-- <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="58.2387695px" height="70.4990234px" viewBox="0 0 58.2387695 70.4990234" enable-background="new 0 0 58.2387695 70.4990234" xml:space="preserve"> -->
 		<path d="M57.7895508,18.8398438L39.3989258,0.4487305C39.1098633,0.1616211,38.7202148,0,38.3139648,0H4.597168
 			C2.0620117,0,0,2.0629883,0,4.5976563v61.3027344c0,2.5361328,2.0620117,4.5986328,4.597168,4.5986328h49.0429688
@@ -7185,7 +7185,8 @@ and entering your simpleledger address.</p>
 					</div>		
 					<div class="style-row">
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-left">
-							<div onclick="designConfirmed(this)" data-wallet-skin="default" class="confirm-design confirm-design-white">
+							
+							<div onclick="designConfirmed(this)" data-wallet-skin="inksaver" class="confirm-design">
 								Select and Continue
 							</div>
 							<div class="style-label">
@@ -7197,30 +7198,32 @@ and entering your simpleledger address.</p>
 						</div>
 					
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
-							<div onclick="designConfirmed(this)" data-wallet-skin="inksaver" class="confirm-design">
+							<div onclick="designConfirmed(this)" data-wallet-skin="default" class="confirm-design">
 								Select and Continue
 							</div>
 							<div class="style-label">
-							SOUR Paper Wallet Light
+							SOUR Paper Wallet Yellow
 						</div>
 						<div class="style-example">
 							<img src="img/2019-paper-wallet-light.png">
 						</div>
 						</div>
 					</div>		
-					<!--								
+											
 					<div class="style-row">
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-left">
 							<div onclick="designConfirmed(this)" data-wallet-skin="nostep" class="confirm-design">
 								Select and Continue
 							</div>
 							<div class="style-label">
-							Gadsden 
+							SOUR Paper Wallet White
 							</div>
 							<div class="style-example">
 								<img src="img/2019-paper-wallet-tread.png">
 							</div>
 						</div>
+
+							<!--	
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
 							<div onclick="designConfirmed(this)" data-wallet-skin="dorian" class="confirm-design confirm-design-white">
 								Select and Continue
@@ -7231,8 +7234,10 @@ and entering your simpleledger address.</p>
 							<div class="style-example">
 								<img src="img/2019-paper-wallet-satoshi.png">
 							</div>
-						</div>
+						</div> -->
 					</div>
+
+					<!--
 					<div class="style-row">
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-left">
 							<div onclick="designConfirmed(this)" data-wallet-skin="vietnam" class="confirm-design">
@@ -10790,13 +10795,15 @@ ninja.wallets.paperwallet = {
 
     case 'default':
       //file resource version: 
-      image = 'img/2019-paper-wallet-dark-blue.png';
+     // image = 'img/2019-paper-wallet-dark-blue.png';
+      image = 'img/2019-paper-wallet-light.png'
       //base64 encoded version:
       break;
 
     case 'inksaver':
       //file resource version
-      image = 'img/2019-paper-wallet-light.png'
+      image = 'img/2019-paper-wallet-dark-blue.png'
+      //image = 'img/2019-paper-wallet-light.png'
       //base64 encoded version:
       // Font color of cash address to black for b&w version
       addressColor='#111724;'
@@ -10838,6 +10845,7 @@ ninja.wallets.paperwallet = {
       image = 'img/2019-paper-wallet-tread.png';
       // Font color of cash address to gadsden
       //addressColor='#f9009e;'
+      addressColor='#000000;'
       lockArtColor='#fff;'
       //lockArtBgColor='#f9009e;' 
       break;
