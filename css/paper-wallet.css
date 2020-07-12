@@ -445,11 +445,11 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAN0lEQVQYV2
 }
 
 .section-1-mbl {
-	height: 80vh;
+	height: 600px;
 }
 
 .section-1-mbl .btn {
-	width: 100%;
+	width: 90%;
 }
 
 .security-recs {
