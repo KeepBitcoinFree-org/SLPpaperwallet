@@ -1,10 +1,11 @@
 !! DO NOT RUN SOUR PAPER WALLET GENERATOR ONLINE !!
 
-TO USE: Download zip file, close all browser sessions, disable your wifi or ethernet connection. Unzip the files and open the index.html in a browser. Follow the instructions to generate a new SOUR SLP Paper Wallet and select a theme for your paper wallet. Select any options you'd like, such as number of addresses (or paper wallets) to generate or amount of SOUR shown on the wallet. Ensure you are directly connected to your printer and not using WiFi to connect if it all possible. From here you can print the paper wallet. After it's printed, fold the wallet however you'd like. I'd recommend folding the private key section in first, then fold it in half so only the public address and cover is shown and the private key is hidden. Be sure to safely store this wallet, anyone who gets the private key QR code can sweep those SOUR & BCH stored on there from the address.
+TO USE: [Download zip file](https://github.com/KeepBitcoinFree-org/SOURpaperwallet/archive/master.zip), close all browser sessions, disable your wifi or ethernet connection. Unzip the files and open the index.html in a new private browser session. Click the button to generate a new SOUR Paper Wallet and select a theme for your paper wallet. Select any other options you'd like, such as number of addresses (or paper wallets) to generate or amount of SOUR shown on the wallet. If possible, ensure you are directly connected to your printer through USB and not using WiFi. From here you can print the paper wallet and fold it however you'd like. I'd recommend folding the private key section in first, then fold it in half so only the public address and cover is shown and the private key is hidden. Be sure to safely store this wallet, anyone who gets the private key QR code can sweep those SOUR & BCH stored on there from the address.
 
 *Sweeping currently only works with the [Badger Wallet](https://badger.bitcoin.com) & [Zapit Wallet](https://zapit.io). Do not use the bitcoin.com wallet to sweep your tokens right now, they will be burned.*
 
-UPDATE: use file slpofflineslpwif to generate private keys begining with "slp:<wif>". This ismeant to prevent non SLP enabled wallets from sweeping and burning tokens.
+UPDATE: use file slpofflineslpwif to generate private keys begining with "slp:<wif>". This ismeant to prevent non SLP enabled wallets from sweeping and burning tokens. 
+  *This wasn't working on any SLP enabled wallets yet. SOUR paper wallet is using the standard <wif> with warnings to use only Badger or Zapit wallets when sweeping funds.
   
 The SOUR Paper Wallet Landing Page
 https://wallet.sourtoken.cash
